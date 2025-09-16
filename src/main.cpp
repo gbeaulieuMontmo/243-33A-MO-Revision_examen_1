@@ -1,3 +1,14 @@
+/**************************************************************/
+// Date de création du programme: 15 septembre 2025
+// Date de la dernière modification: 15 septembre 2025
+// Nom du programmeur principal: Guillaume Beaulieu
+//
+// But du programme: solution des exercices de révision du cours 5
+//
+// Pour obtenir cet exemple de code, voir le dépôt GitHub suivant :
+// https://github.com/gbeaulieuMontmo/243-33A-MO-Revision_examen_1.git
+/**************************************************************/
+
 #include <Arduino.h>
 #include <bits_manip.h>
 #include <math.h> //Pour la fonction puissance v2
