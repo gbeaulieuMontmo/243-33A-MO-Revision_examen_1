@@ -32,6 +32,11 @@ void Sautes_Lignes(int iNbre_saut)
 {
   if(iNbre_saut < 1) iNbre_saut = 1;
   if(iNbre_saut > 23) iNbre_saut = 23;
+
+  //Ici on pourrait utiliser la fonction constrain de la librairie Arduino
+  //à la place des deux lignes if ci-dessus
+  //iNbre_saut = constrain(iNbre_saut, 1, 23); 
+  
   for(int i = 0; i < iNbre_saut; i++) Serial.println();
 }
 
